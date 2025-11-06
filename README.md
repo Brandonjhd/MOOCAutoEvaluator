@@ -47,10 +47,6 @@ MOOCAutoEvaluator 是一个用于自动完成中国大学MOOC平台作业互评�
 4. 将生成的评语粘贴到文本框中（每行一条）
 5. 点击「开始评价」按钮，脚本会自动完成所有互评
 
-### 功能截图
-
-_（建议添加使用界面截图）_
-
 ### 技术特点
 
 - 🚀 **轻量化设计** - 纯JavaScript实现，无需额外依赖
@@ -87,19 +83,6 @@ _（建议添加使用界面截图）_
 - 未获作者授权禁止商业用途
 - 使用本项目时，请务必保留署名及仓库出处：https://github.com/Brandonjhd/MOOCAutoEvaluator
 - 如果有问题或建议，请在 [Issues](https://github.com/Brandonjhd/MOOCAutoEvaluator/issues) 中提出。感谢使用！
-
-### 更新日志
-
-#### v2.1 (2025-11-06)
-- ✨ 新增AI提示词生成器功能
-- ✨ 支持评价字数自定义（120-140字）
-- 🐛 修复停止按钮无效问题
-- 🐛 修复提交按钮识别问题
-- 💄 优化界面布局和按钮样式
-
-#### v1.0 (2025-11-06)
-- 🎉 首次发布
-- ✨ 支持自动评价基本功能
 
 ---
 
@@ -218,19 +201,6 @@ View full license: [LICENSE](LICENSE)
 - Commercial use prohibited without author permission
 - Please retain attribution and repository link when using: https://github.com/Brandonjhd/MOOCAutoEvaluator
 - Report issues or suggestions at [Issues](https://github.com/Brandonjhd/MOOCAutoEvaluator/issues)
-
-### Changelog
-
-#### v2.1 (2025-11-06)
-- ✨ Added AI prompt generator feature
-- ✨ Support custom comment length (120-140 characters)
-- 🐛 Fixed stop button not working
-- 🐛 Fixed submit button recognition issue
-- 💄 Optimized UI layout and button styles
-
-#### v1.0 (2025-11-06)
-- 🎉 Initial release
-- ✨ Basic auto-evaluation functionality
 
 ---
 
