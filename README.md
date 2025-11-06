@@ -344,28 +344,6 @@ MOOCAutoEvaluator는 중국 대학 MOOC 플랫폼의 과제 상호평가를 자�
 
 ---
 
-## About
-
-自动完成中国大学MOOC作业互评的用户脚本工具 / Userscript tool for automating peer review on China University MOOC platform
-
-### Topics
-
-`mooc` `automation` `userscript` `tampermonkey` `peer-review` `icourse163` `education` `greasemonkey` `javascript`
-
-### Resources
-
-- 📖 [Documentation](https://github.com/Brandonjhd/MOOCAutoEvaluator#readme)
-- 💬 [Discussions](https://github.com/Brandonjhd/MOOCAutoEvaluator/discussions)
-- 🐛 [Issues](https://github.com/Brandonjhd/MOOCAutoEvaluator/issues)
-
-### License
-
-**CC BY-NC-SA 4.0**
-
-[View license](LICENSE)
-
----
-
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Brandonjhd/MOOCAutoEvaluator&type=Date)](https://star-history.com/#Brandonjhd/MOOCAutoEvaluator&Date)
