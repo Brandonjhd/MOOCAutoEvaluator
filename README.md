@@ -39,6 +39,7 @@ MOOCAutoEvaluator 是一个用于自动完成中国大学MOOC平台作业互评�
 #### 2. 安装脚本
 点击下方链接安装脚本：
 - [从 GitHub 安装](https://github.com/Brandonjhd/MOOCAutoEvaluator/raw/main/mooc-auto-evaluator.user.js)
+- [从蓝奏云下载](https://uxudjs.lanzouw.com/iVquM3adruxc)
 
 #### 3. 使用步骤
 1. 打开中国大学MOOC平台的作业互评页面
@@ -115,6 +116,7 @@ MOOCAutoEvaluator 是一個用於自動完成中國大學MOOC平台作業互評�
 #### 2. 安裝腳本
 點選下方連結安裝腳本：
 - [從 GitHub 安裝](https://github.com/Brandonjhd/MOOCAutoEvaluator/raw/main/mooc-auto-evaluator.user.js)
+- [從藍奏雲下載](https://uxudjs.lanzouw.com/iVquM3adruxc)
 
 #### 3. 使用步驟
 1. 開啟中國大學MOOC平台的作業互評頁面
@@ -191,6 +193,7 @@ First, install a userscript manager (choose one):
 #### 2. Install Script
 Click the link below to install:
 - [Install from GitHub](https://github.com/Brandonjhd/MOOCAutoEvaluator/raw/main/mooc-auto-evaluator.user.js)
+- [Download from Lanzou Cloud](https://uxudjs.lanzouw.com/iVquM3adruxc)
 
 #### 3. Usage
 1. Open the peer review page on China University MOOC platform
@@ -233,7 +236,7 @@ View full license: [LICENSE](LICENSE)
 📌 **Usage Guidelines**
 - Open-source learning and personal non-commercial use only
 - Commercial use prohibited without author permission
-- Please retain attribution and repository link when using: https://github.com/Brandonjhd/MOOCAutoEvaluator
+- Please retain attribution and repository link when using: [https://github.com/Brandonjhd/MOOCAutoEvaluator](https://github.com/Brandonjhd/MOOCAutoEvaluator)
 - Report issues or suggestions at [Issues](https://github.com/Brandonjhd/MOOCAutoEvaluator/issues). Thank you for using!
 
 ---
@@ -267,6 +270,7 @@ MOOCAutoEvaluator は、中国大学MOOCプラットフォームの課題相互�
 #### 2. スクリプトをインストール
 以下のリンクからインストール：
 - [GitHubからインストール](https://github.com/Brandonjhd/MOOCAutoEvaluator/raw/main/mooc-auto-evaluator.user.js)
+- [蓝奏云からダウンロード](https://uxudjs.lanzouw.com/iVquM3adruxc)
 
 #### 3. 使用方法
 1. 中国大学MOOCプラットフォームの相互評価ページを開く
@@ -343,6 +347,7 @@ MOOCAutoEvaluator는 중국 대학 MOOC 플랫폼의 과제 상호평가를 자�
 #### 2. 스크립트 설치
 아래 링크에서 설치:
 - [GitHub에서 설치](https://github.com/Brandonjhd/MOOCAutoEvaluator/raw/main/mooc-auto-evaluator.user.js)
+- [蓝奏云에서 다운로드](https://uxudjs.lanzouw.com/iVquM3adruxc)
 
 #### 3. 사용 방법
 1. 중국 대학 MOOC 플랫폼의 상호평가 페이지 열기
