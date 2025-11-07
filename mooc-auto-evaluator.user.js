@@ -1,6 +1,5 @@
 // ==UserScript==
 // @name         中国大学MOOC自动互评助手
-// @namespace    http://tampermonkey.net/
 // @version      2.3
 // @description  自动完成中国大学MOOC的作业互评，支持批量评价
 // @author       UXU倒計時
@@ -9,6 +8,9 @@
 // @icon         https://www.icourse163.org/favicon.ico
 // @grant        none
 // @run-at       document-end
+// @homepage     https://github.com/Brandonjhd/MOOCAutoEvaluator
+// @supportURL   https://github.com/Brandonjhd/MOOCAutoEvaluator/issues
+// @license      CC-BY-NC-SA-4.0
 // ==/UserScript==
 
 (function() {
@@ -83,6 +85,7 @@
             <div style="margin-bottom: 15px;">
                 <h3 style="margin: 0 0 10px 0; color: #333; font-size: 18px;">🤖 中国大学MOOC自动互评助手</h3>
                 <p style="margin: 0; font-size: 12px; color: #666;">作者: UXU倒計時</p>
+                <a href="https://github.com/Brandonjhd/MOOCAutoEvaluator" target="_blank" style="font-size: 11px; color: #667eea; text-decoration: none; display: block; margin-top: 4px;">📦 GitHub仓库</a>
             </div>
 
             <div style="margin-bottom: 15px; padding: 12px; background: #f0f7ff; border-radius: 8px; border: 1px solid #d0e8ff;">
