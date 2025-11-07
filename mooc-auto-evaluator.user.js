@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         中国大学MOOC自动互评助手
 // @namespace    http://tampermonkey.net/
-// @version      2.2
+// @version      2.3
 // @description  自动完成中国大学MOOC的作业互评，支持批量评价
 // @author       UXU倒計時
 // @match        https://www.icourse163.org/spoc/learn/*
@@ -234,7 +234,7 @@
             return;
         }
 
-        const prompt = `请根据《${courseName}》《${hwName}》生成30个学生互评通用评价，每个评价100-120字的，换行输出，不可空行，无序号，一行一个。`;
+        const prompt = `请根据《${courseName}》《${hwName}》生成30个学生互评通用评价，每个评价最少150-200字，换行输出，不可空行，无序号，一行一个。`;
 
         navigator.clipboard.writeText(prompt).then(() => {
             showStatus('✅ AI提示词已复制到剪贴板！可以直接粘贴到AI对话框', 'success');
