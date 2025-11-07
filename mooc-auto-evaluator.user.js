@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         中国大学MOOC自动互评助手
-// @version      2.3
+// @version      2.4
 // @description  自动完成中国大学MOOC的作业互评，支持批量评价
 // @author       UXU倒計時
 // @match        https://www.icourse163.org/spoc/learn/*
@@ -37,8 +37,7 @@
         floatingBall.style.cssText = `
             position: fixed;
             right: 20px;
-            top: 50%;
-            transform: translateY(-50%);
+            bottom: 20px;
             width: 50px;
             height: 50px;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -55,11 +54,11 @@
         `;
 
         floatingBall.addEventListener('mouseenter', () => {
-            floatingBall.style.transform = 'translateY(-50%) scale(1.1)';
+            floatingBall.style.transform = 'scale(1.1)';
         });
 
         floatingBall.addEventListener('mouseleave', () => {
-            floatingBall.style.transform = 'translateY(-50%) scale(1)';
+            floatingBall.style.transform = 'scale(1)';
         });
 
         const panel = document.createElement('div');
@@ -67,8 +66,7 @@
         panel.style.cssText = `
             position: fixed;
             right: 20px;
-            top: 50%;
-            transform: translateY(-50%);
+            bottom: 80px;
             width: 380px;
             background: white;
             border-radius: 12px;
@@ -77,15 +75,17 @@
             z-index: 10001;
             display: none;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            max-height: 90vh;
+            max-height: calc(90vh - 100px);
             overflow-y: auto;
         `;
 
         panel.innerHTML = `
             <div style="margin-bottom: 15px;">
                 <h3 style="margin: 0 0 10px 0; color: #333; font-size: 18px;">🤖 中国大学MOOC自动互评助手</h3>
-                <p style="margin: 0; font-size: 12px; color: #666;">作者: UXU倒計時</p>
-                <a href="https://github.com/Brandonjhd/MOOCAutoEvaluator" target="_blank" style="font-size: 11px; color: #667eea; text-decoration: none; display: block; margin-top: 4px;">📦 GitHub仓库</a>
+                <div style="display: flex; align-items: center; justify-content: space-between;">
+                    <p style="margin: 0; font-size: 12px; color: #666;">作者: UXU倒計時</p>
+                    <a href="https://github.com/Brandonjhd/MOOCAutoEvaluator" target="_blank" style="font-size: 11px; color: #667eea; text-decoration: none;">📦 GitHub仓库</a>
+                </div>
             </div>
 
             <div style="margin-bottom: 15px; padding: 12px; background: #f0f7ff; border-radius: 8px; border: 1px solid #d0e8ff;">
