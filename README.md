@@ -16,7 +16,7 @@
 
 ### 简介
 
-MOOCAutoEvaluator 是一个用于自动完成中国大学MOOC平台作业互评的用户脚本工具。通过智能化的自动评价流程，帮助学生高效完成互评任务，节省时间专注于学习本身。
+MOOCAutoEvaluator 是一个用于自动完成中国大学MOOC平台作业互评的用户脚本工具。通过智能化的自动评价流程，帮助学生高效完成互评任务,节省时间专注于学习本身。
 
 ### 主要功能
 
@@ -110,6 +110,7 @@ MOOCAutoEvaluator 是一個用於自動完成中國大學MOOC平台作業互評�
 首先需要安裝使用者腳本管理器（任選其一）：
 - [Tampermonkey](https://www.tampermonkey.net/) (推薦)
 - [Violentmonkey](https://violentmonkey.github.io/)
+- [Greasemonkey](https://www.greasespot.net/)
 
 #### 2. 安裝腳本
 點選下方連結安裝腳本：
@@ -121,6 +122,19 @@ MOOCAutoEvaluator 是一個用於自動完成中國大學MOOC平台作業互評�
 3. 點選「複製AI提示詞」按鈕，貼上到ChatGPT等AI工具產生評語
 4. 將產生的評語貼上到文字框中（每行一條）
 5. 點選「開始評價」按鈕，腳本會自動完成所有互評
+
+### 技術特點
+
+- 🚀 **輕量化設計** - 純JavaScript實作，無需額外依賴
+- 🔒 **安全可靠** - 僅在互評頁面執行，不收集任何個人資訊
+- 🎨 **友善介面** - 簡潔美觀的操作面板，易於上手
+- ⚡ **智慧等待** - 自動適配網路延遲，確保操作成功率
+
+### 適用範圍
+
+- ✅ 中國大學MOOC平台 (icourse163.org)
+- ✅ SPOC課程互評
+- ✅ 作業互評頁面
 
 ### 作者
 
@@ -134,6 +148,13 @@ MOOCAutoEvaluator 是一個用於自動完成中國大學MOOC平台作業互評�
 
 ### 注意事項
 
+⚠️ **重要提醒**
+- 本專案僅供學習交流使用，請合理使用自動化工具
+- 使用時請確保評語內容真實有意義，避免敷衍評價
+- 本工具不保證100%成功率，如遇問題請手動完成
+- 使用本專案即表示您已了解並同意相關使用規範
+
+📌 **使用規範**
 - 僅供開源學習及個人非商業用途
 - 未經作者授權，不得用於任何商業用途
 - 使用本專案時，請務必保留標註及原始倉庫連結：https://github.com/Brandonjhd/MOOCAutoEvaluator
@@ -178,6 +199,19 @@ Click the link below to install:
 4. Paste the generated comments into the text box (one per line)
 5. Click "Start Evaluation" and the script will complete all reviews automatically
 
+### Technical Features
+
+- 🚀 **Lightweight Design** - Pure JavaScript implementation, no additional dependencies
+- 🔒 **Secure & Reliable** - Runs only on review pages, collects no personal information
+- 🎨 **User-Friendly Interface** - Clean and intuitive control panel
+- ⚡ **Smart Waiting** - Automatically adapts to network delays for high success rate
+
+### Compatibility
+
+- ✅ China University MOOC Platform (icourse163.org)
+- ✅ SPOC Course Reviews
+- ✅ Assignment Peer Review Pages
+
 ### Author
 
 **UXU Countdown**
@@ -200,7 +234,7 @@ View full license: [LICENSE](LICENSE)
 - Open-source learning and personal non-commercial use only
 - Commercial use prohibited without author permission
 - Please retain attribution and repository link when using: https://github.com/Brandonjhd/MOOCAutoEvaluator
-- Report issues or suggestions at [Issues](https://github.com/Brandonjhd/MOOCAutoEvaluator/issues)
+- Report issues or suggestions at [Issues](https://github.com/Brandonjhd/MOOCAutoEvaluator/issues). Thank you for using!
 
 ---
 
@@ -228,6 +262,7 @@ MOOCAutoEvaluator は、中国大学MOOCプラットフォームの課題相互�
 まず、ユーザースクリプトマネージャーをインストールします（いずれか選択）：
 - [Tampermonkey](https://www.tampermonkey.net/) (推奨)
 - [Violentmonkey](https://violentmonkey.github.io/)
+- [Greasemonkey](https://www.greasespot.net/)
 
 #### 2. スクリプトをインストール
 以下のリンクからインストール：
@@ -239,6 +274,19 @@ MOOCAutoEvaluator は、中国大学MOOCプラットフォームの課題相互�
 3. 「AIプロンプトをコピー」ボタンをクリックし、ChatGPTなどのAIツールに貼り付け
 4. 生成されたコメントをテキストボックスに貼り付け（1行に1つ）
 5. 「評価開始」ボタンをクリックすると、スクリプトが自動的にすべての評価を完了
+
+### 技術的特徴
+
+- 🚀 **軽量設計** - 純粋なJavaScript実装、追加の依存関係不要
+- 🔒 **安全で信頼性が高い** - 評価ページでのみ実行、個人情報を収集しない
+- 🎨 **使いやすいインターフェース** - シンプルで美しい操作パネル
+- ⚡ **スマート待機** - ネットワーク遅延に自動対応、高い成功率を確保
+
+### 対応範囲
+
+- ✅ 中国大学MOOCプラットフォーム (icourse163.org)
+- ✅ SPOCコース相互評価
+- ✅ 課題相互評価ページ
 
 ### 作者
 
@@ -252,6 +300,13 @@ MOOCAutoEvaluator は、中国大学MOOCプラットフォームの課題相互�
 
 ### 注意事項
 
+⚠️ **重要なお知らせ**
+- 本プロジェクトは学習交流用途のみです。自動化ツールは適切に使用してください
+- 使用時にはコメント内容が真実で意味があることを確認し、いい加減な評価を避けてください
+- 本ツールは100%の成功率を保証しません。問題が発生した場合は手動で完了してください
+- 本プロジェクトの使用は、関連する使用規範を理解し同意したことを意味します
+
+📌 **使用規範**
 - オープンソース学習および非商用利用のみ許可
 - 作者の明確な許可なしに商用利用は禁止
 - 使用時は著作権表示およびリポジトリリンクを必ず保持：https://github.com/Brandonjhd/MOOCAutoEvaluator
@@ -283,6 +338,7 @@ MOOCAutoEvaluator는 중국 대학 MOOC 플랫폼의 과제 상호평가를 자�
 먼저 사용자 스크립트 관리자를 설치합니다(하나 선택):
 - [Tampermonkey](https://www.tampermonkey.net/) (권장)
 - [Violentmonkey](https://violentmonkey.github.io/)
+- [Greasemonkey](https://www.greasespot.net/)
 
 #### 2. 스크립트 설치
 아래 링크에서 설치:
@@ -294,6 +350,19 @@ MOOCAutoEvaluator는 중국 대학 MOOC 플랫폼의 과제 상호평가를 자�
 3. "AI 프롬프트 복사" 버튼을 클릭하고 ChatGPT 등 AI 도구에 붙여넣기
 4. 생성된 코멘트를 텍스트 상자에 붙여넣기(한 줄에 하나씩)
 5. "평가 시작" 버튼을 클릭하면 스크립트가 자동으로 모든 평가 완료
+
+### 기술적 특징
+
+- 🚀 **경량 설계** - 순수 JavaScript 구현, 추가 종속성 불필요
+- 🔒 **안전하고 신뢰할 수 있음** - 평가 페이지에서만 실행, 개인 정보 수집 안 함
+- 🎨 **사용자 친화적 인터페이스** - 간결하고 아름다운 조작 패널
+- ⚡ **스마트 대기** - 네트워크 지연에 자동 적응, 높은 성공률 보장
+
+### 적용 범위
+
+- ✅ 중국 대학 MOOC 플랫폼 (icourse163.org)
+- ✅ SPOC 과정 상호평가
+- ✅ 과제 상호평가 페이지
 
 ### 저자
 
@@ -307,6 +376,13 @@ MOOCAutoEvaluator는 중국 대학 MOOC 플랫폼의 과제 상호평가를 자�
 
 ### 안내사항
 
+⚠️ **중요 알림**
+- 이 프로젝트는 학습 교류 용도로만 사용하며, 자동화 도구를 합리적으로 사용하세요
+- 사용 시 코멘트 내용이 진실하고 의미 있는지 확인하여 형식적인 평가를 피하세요
+- 이 도구는 100% 성공률을 보장하지 않으며, 문제 발생 시 수동으로 완료하세요
+- 이 프로젝트 사용은 관련 사용 규범을 이해하고 동의했음을 의미합니다
+
+📌 **사용 규범**
 - 오픈 소스 학습 및 비상업적 용도로만 사용
 - 저자의 명확한 허가 없이 상업적 용도 사용 금지
 - 이 프로젝트 사용 시 저작자 표시와 저장소 링크 반드시 유지：https://github.com/Brandonjhd/MOOCAutoEvaluator
