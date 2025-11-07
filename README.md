@@ -43,7 +43,7 @@ MOOCAutoEvaluator 是一个用于自动完成中国大学MOOC平台作业互评�
 
 #### 3. 使用步骤
 1. 打开中国大学MOOC平台的作业互评页面
-2. 点击页面右侧的紫色悬浮球 ✓
+2. 点击页面右下角的紫色悬浮球 ✓
 3. 点击「复制AI提示词」按钮，粘贴到ChatGPT等AI工具生成评语
 4. 将生成的评语粘贴到文本框中（每行一条）
 5. 点击「开始评价」按钮，脚本会自动完成所有互评
@@ -120,7 +120,7 @@ MOOCAutoEvaluator 是一個用於自動完成中國大學MOOC平台作業互評�
 
 #### 3. 使用步驟
 1. 開啟中國大學MOOC平台的作業互評頁面
-2. 點選頁面右側的紫色懸浮球 ✓
+2. 點選頁面右下角的紫色懸浮球 ✓
 3. 點選「複製AI提示詞」按鈕，貼上到ChatGPT等AI工具產生評語
 4. 將產生的評語貼上到文字框中（每行一條）
 5. 點選「開始評價」按鈕，腳本會自動完成所有互評
@@ -197,7 +197,7 @@ Click the link below to install:
 
 #### 3. Usage
 1. Open the peer review page on China University MOOC platform
-2. Click the purple floating ball ✓ on the right side
+2. Click the purple floating ball ✓ in the bottom right corner
 3. Click "Copy AI Prompt" and paste it into ChatGPT or other AI tools
 4. Paste the generated comments into the text box (one per line)
 5. Click "Start Evaluation" and the script will complete all reviews automatically
@@ -274,7 +274,7 @@ MOOCAutoEvaluator は、中国大学MOOCプラットフォームの課題相互�
 
 #### 3. 使用方法
 1. 中国大学MOOCプラットフォームの相互評価ページを開く
-2. 右側の紫色のフローティングボール ✓ をクリック
+2. 右下の紫色のフローティングボール ✓ をクリック
 3. 「AIプロンプトをコピー」ボタンをクリックし、ChatGPTなどのAIツールに貼り付け
 4. 生成されたコメントをテキストボックスに貼り付け（1行に1つ）
 5. 「評価開始」ボタンをクリックすると、スクリプトが自動的にすべての評価を完了
@@ -351,7 +351,7 @@ MOOCAutoEvaluator는 중국 대학 MOOC 플랫폼의 과제 상호평가를 자�
 
 #### 3. 사용 방법
 1. 중국 대학 MOOC 플랫폼의 상호평가 페이지 열기
-2. 오른쪽의 보라색 플로팅 버튼 ✓ 클릭
+2. 오른쪽 하단의 보라색 플로팅 버튼 ✓ 클릭
 3. "AI 프롬프트 복사" 버튼을 클릭하고 ChatGPT 등 AI 도구에 붙여넣기
 4. 생성된 코멘트를 텍스트 상자에 붙여넣기(한 줄에 하나씩)
 5. "평가 시작" 버튼을 클릭하면 스크립트가 자동으로 모든 평가 완료
